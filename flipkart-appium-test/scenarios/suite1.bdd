@@ -1,0 +1,90 @@
+SCENARIO: Navigation Menu
+META-DATA: {"description":"navigation menu functionality"}
+	Given user is on flipkart home page
+	When user open navigation menu
+	And user click on category '${category.name1}'
+	Then verify category page '${category.name1}' is displayed
+	When user click on subcategory '${subcategory.name1}'
+	Then verify subcategory page '${subcategory.page.name1}' is displayed
+END
+
+SCENARIO: View All functionality
+META-DATA: {"description":"view all button functionality"}
+	Given user is on flipkart home page
+	Then verify view all button functionality
+END
+
+SCENARIO: Search
+META-DATA: {"key":"item.data","description":"verify search functionality"}
+	Given user is on flipkart home page
+	When user search for item '${item_name}'
+	Then verify search results are displayed for the item '${item_name}'
+END
+
+SCENARIO: Category Page
+META-DATA: {"description":"category page attributes of the item"}
+	Given user is on flipkart home page
+	When user search for item '${search.item.name1}'
+	Then verify search results are displayed for the item '${search.item.name1}'
+	And verify item attributes on category page
+END
+
+SCENARIO: Sort and Filter functionality
+META-DATA: {"description":"sort and filter functionality on search results page"}
+	Given user is on flipkart home page
+	When user search for item '${search.item.name2}'
+	Then verify Sort and Filter functionality on search results page
+END
+
+SCENARIO: PDP Page
+META-DATA: {"description":"PDP page attributes of the item"}
+	Given user is on flipkart home page
+	When user search for item '${search.item.name1}'
+	And user select item from the search result
+	Then verify user is on PDP page
+	And verify item attributes on PDP page
+END
+
+SCENARIO: Add item to Wishlist
+META-DATA: {"description":"user add item to wishlist"}
+	Given user is on flipkart home page
+	When user search for item '${search.item.name1}'
+	And user select item from the search result
+	Then verify user is on PDP page
+	When user click on wishlist icon
+	And user navigate to wishlist page
+	Then verify item '${search.item.name1}' is added to wishlist page
+END
+
+SCENARIO: Add item on Cart Page
+META-DATA: {"key":"item.data","description":"user add item to the cart"}
+	Given user is on flipkart home page
+	When user search for item '${item_name}'
+	Then verify search results are displayed for the item '${item_name}'
+	When user select item from the search result
+	And user add item to the cart
+	Then verify item '${item_name}' is added on cart page
+END
+
+SCENARIO: save for later item on Cart Page
+META-DATA: {"description":"user delete item from Cart Page"}
+	Given user is on flipkart home page
+	When user search for item '${search.item.name1}'
+	Then verify search results are displayed for the item '${search.item.name1}'
+	When user select item from the search result
+	And user add item to the cart
+	Then verify item '${search.item.name1}' is added on cart page
+	When user click save for later on cart page
+	Then verify item '${search.item.name1}' is displayed on saved for later section
+END
+
+SCENARIO: Checkout Flow
+META-DATA: {"description":"user is able to see login page when checkout the item"}
+	Given user is on flipkart home page
+	When user search for item '${search.item.name1}'
+	Then verify search results are displayed for the item '${search.item.name1}'
+	When user select item from the search result
+	And user add item to the cart
+	And user click on continue button
+	Then verify login screen is displayed
+END

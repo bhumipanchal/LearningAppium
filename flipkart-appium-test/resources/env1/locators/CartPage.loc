@@ -1,0 +1,8 @@
+flipkart.cart.page.item.title= {\"locator\":\"xpath=//android.view.View[contains(@content-desc,'%s')]\",\"desc\":\"cart page item title\"}
+flipkart.cart.page.save.for.later.icon= {\"locator\":\"accessibility id=Save for later\",\"desc\":\"cart page save for later icon\"}
+flipkart.cart.page.dialog.remove.icon= {\"locator\":\"accessibility id=REMOVE\",\"desc\":\"cart page dialog remove icon\"}
+flipkart.cart.page.empty.text= {\"locator\":\"accessibility id=Your Cart is empty!\",\"desc\":\"cart page empty text\"}
+flipkart.cart.page.continue.button= {\"locator\":\"accessibility id=CONTINUE\",\"desc\":\"cart page continue button\"}
+flipkart.cart.login.page.email.input= {\"locator\":\"id=com.flipkart.android:id/mobileNo\",\"desc\":\"cart login page email input\"}
+flipkart.cart.login.page.password.input= {\"locator\":\"id=com.flipkart.android:id/et_password\",\"desc\":\"cart login page password input\"}
+flipkart.cart.login.page.signin.button= {\"locator\":\"id=com.flipkart.android:id/btn_mlogin\",\"desc\":\"cart login page sign in button\"}

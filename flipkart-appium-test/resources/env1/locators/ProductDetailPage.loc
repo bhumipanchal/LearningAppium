@@ -1,0 +1,7 @@
+flipkart.pdp.page.wishlist.icon= {\"locator\":\"xpath=//android.widget.FrameLayout/android.view.View[2]\",\"desc\":\"PDP page wishlist icon\"}
+flipkart.pdp.page.add.to.cart.button = {\"locator\":\"id=com.flipkart.android:id/product_ping_share_1\",\"desc\":\"add to cart button \"}
+flipkart.pdp.page.buy.now.button = {\"locator\":\"xpath=//android.widget.FrameLayout/android.view.View/android.view.View[1]/android.view.View/android.view.View[8]/android.widget.TextView\",\"desc\":\"buy now button \"}
+flipkart.pdp.page.product.image = {\"locator\":\"xpath=//android.widget.FrameLayout[1]/android.view.View/android.view.View[1]/android.view.View/android.widget.ImageView\",\"desc\":\"product image \"}
+flipkart.pdp.page.product.price = {\"locator\":\"xpath=//android.widget.FrameLayout/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.TextView[1]\",\"desc\":\"product price \"}
+flipkart.pdp.page.back.button = {\"locator\":\"accessibility id=Back Button\",\"desc\":\"PDP back button \"}
+flipkart.pdp.page.dialog.add.to.cart.button = {\"locator\":\"id=com.flipkart.android:id/txt_btn_add_to_cart\",\"desc\":\"dialog add to cart button \"}

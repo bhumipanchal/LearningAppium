@@ -1,0 +1,21 @@
+flipkart.home.page.logo = {\"locator\":\"accessibility id=Flipkart home\",\"desc\":\"Flipkart logo \"}
+flipkart.home.page.drawer.button = {\"locator\":\"accessibility id=Open Drawer\",\"desc\":\"drawer button \"}
+flipkart.home.page.drawer.category.option = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.flipkart.android:id/flyout_parent_title' and @text='%s']\",\"desc\":\"drawer category option \"}
+flipkart.category.page.title = {\"locator\":\"id=com.flipkart.android:id/category_title\",\"desc\":\"category page title \"}
+flipkart.home.page.drawer.subcategory.option = {\"locator\":\"xpath=//android.widget.TextView[@resource-id='com.flipkart.android:id/title' and @text='%s']\",\"desc\":\"drawer subcategory option \"}
+flipkart.subcategory.page.title = {\"locator\":\"id=com.flipkart.android:id/title_action_bar\",\"desc\":\"subcategory page title \"}
+flipkart.home.page.view.all.button = {\"locator\":\"id=com.flipkart.android:id/bt_view_more\",\"desc\":\"view all button \"}
+flipkart.category.page.counter.view = {\"locator\":\"id=com.flipkart.android:id/counter_view\",\"desc\":\"counter view \"}
+flipkart.home.page.search.textbox = {\"locator\":\"id=com.flipkart.android:id/search_widget_textbox\",\"desc\":\"search textbox \"}
+flipkart.home.page.search.autocomplete.textview = {\"locator\":\"accessibility id=Search grocery products in Supermart\",\"desc\":\"search autocomplete textview \"}
+flipkart.home.page.search.suggestion.result = {\"locator\":\"xpath=//android.support.v7.widget.RecyclerView[@resource-id='com.flipkart.android:id/auto_suggest_recycler_view']//android.widget.RelativeLayout[1]\",\"desc\":\"search suggestion results \"}
+flipkart.search.results.page.item.name = {\"locator\":\"xpath=//android.widget.TextView[contains(@text,'%s')]\",\"desc\":\"search results item name\"}
+flipkart.search.results.page.item.image= {\"locator\":\"xpath=//android.view.View/android.view.View[1]/android.widget.ImageView[1]\",\"desc\":\"search results item image\"}
+flipkart.search.results.page.item.price= {\"locator\":\"xpath=//android.view.View/android.view.View[1]/android.widget.TextView[contains(@text,'₹')]\",\"desc\":\"search results item price\"}
+flipkart.search.results.page.item.wishlist.icon= {\"locator\":\"xpath=//android.view.View/android.view.View[1]/android.widget.FrameLayout//android.view.View[2]\",\"desc\":\"search results wishlist icon\"}
+flipkart.search.results.page.sort.option.input= {\"locator\":\"xpath=//android.widget.TextView[@text='%s']//following-sibling::android.widget.ImageView\",\"desc\":\"search results sort option input\"}
+flipkart.search.results.page.filter.option= {\"locator\":\"xpath=//android.widget.TextView[contains(@text,'%s')]\",\"desc\":\"search results filter option\"}
+flipkart.app.button.by.text= {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"flipkart app button\"}
+flipkart.search.results.page.wishlist.icon = {\"locator\":\"id=com.flipkart.android:id/wishlistIcon\",\"desc\":\"search results page wishlist icon \"}
+flipkart.wishlist.page.item.title={\"locator\":\"id=com.flipkart.android:id/product_list_product_item_main_text\",\"desc\":\"wishlist item title \"}
+flipkart.home.page.close.icon={\"locator\":\"id=com.flipkart.android:id/btn_skip\",\"desc\":\"home page close icon \"}
